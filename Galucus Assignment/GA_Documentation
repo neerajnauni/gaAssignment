@@ -1,7 +1,7 @@
 Doc. to access the API(in Local Machine):
 
 Step-1) Run the project in the local machine .
-Step-2) Then from the browser or JMeter hit the API(with PUT request) as : http://localhost:8080/glaucus/increment/number
+Step-2) Then from JMeter hit the API(with PUT request) as : http://localhost:8080/glaucus/increment/number
 Step-3) The process or architecture will follow as :
 
 Client(Browser) --> Dispatcher Servlet(Spring-Servlet.xml) --> Controller --> Service --> DAO 
